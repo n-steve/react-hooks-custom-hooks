@@ -15,6 +15,7 @@ function useQuery(url) {
         setIsLoaded(true);
       });
   }, [url]);
+
   // the url is now a dependency
   // we want to use the side effect whenever the url changes
 
